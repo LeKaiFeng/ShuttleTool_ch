@@ -1,0 +1,7 @@
+#
+#Thu Dec 31 15:40:15 CST 2020
+port=2000
+shuttleId=1
+shuttleType=V4.5
+times=1
+ip=127.0.0.1

@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane fx:id="rootPane" minHeight="835.0" minWidth="905.0" prefHeight="926.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="galaxis.lee.senceControl.FXSceneController">
+    <children>
+        <StackPane fx:id="containerPane" prefHeight="990.0" prefWidth="905.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <GridPane alignment="CENTER" prefHeight="728.0" prefWidth="1147.0" style="-fx-border-width: 5;">
+                <columnConstraints>
+                    <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="269.0" minWidth="0.0" prefWidth="269.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="508.0" minWidth="10.0" prefWidth="288.0" />
+                    <ColumnConstraints />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="70.0" minHeight="10.0" prefHeight="70.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="159.0" minHeight="10.0" prefHeight="159.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <children>
+                    <HBox fx:id="hbox_top" alignment="CENTER" prefHeight="81.0" prefWidth="905.0" spacing="10.0" style="-fx-border-color: Gainsboro;" GridPane.columnSpan="3" GridPane.rowIndex="1">
+                        <children>
+                            <Label text="小车类型" />
+                            <ChoiceBox fx:id="shuttleType" prefHeight="30.0" prefWidth="77.0" />
+                            <Label text="小车编号">
+                                <HBox.margin>
+                                    <Insets left="10.0" />
+                                </HBox.margin>
+                            </Label>
+                            <TextField fx:id="shuttleId" alignment="CENTER" prefHeight="30.0" prefWidth="47.0" />
+                            <Label text="IP">
+                                <HBox.margin>
+                                    <Insets left="10.0" />
+                                </HBox.margin>
+                            </Label>
+                            <TextField fx:id="ip" alignment="CENTER" prefHeight="30.0" prefWidth="113.0" />
+                            <Label text="port">
+                                <HBox.margin>
+                                    <Insets left="10.0" />
+                                </HBox.margin>
+                            </Label>
+                            <TextField fx:id="port" alignment="CENTER" prefHeight="30.0" prefWidth="68.0" />
+                            <JFXButton fx:id="btn_connect" contentDisplay="CENTER" onAction="#connect" prefHeight="30.0" prefWidth="88.0" style="-fx-background-color: Gainsboro;" text="连接">
+                                <HBox.margin>
+                                    <Insets left="10.0" />
+                                </HBox.margin>
+                            </JFXButton>
+                     <Circle fx:id="circle" fill="GAINSBORO" radius="20.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="2.0">
+                        <HBox.margin>
+                           <Insets left="10.0" />
+                        </HBox.margin>
+                     </Circle>
+                        </children>
+                    </HBox>
+                    <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnSpan="3" GridPane.rowIndex="2" GridPane.rowSpan="5">
+                        <children>
+                            <ScrollPane prefHeight="794.0" prefWidth="905.0">
+                                <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2050.0" prefWidth="885.0">
+                                        <children>
+                                            <StackPane prefHeight="4000.0" prefWidth="941.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <children>
+                                                    <GridPane fx:id="grid" prefHeight="939.0" prefWidth="873.0">
+                                                        <columnConstraints>
+                                                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="893.0" minWidth="10.0" prefWidth="874.0" />
+                                                        </columnConstraints>
+                                                        <rowConstraints>
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+
+
+                                                        </rowConstraints>
+                                                        <children>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir1" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action1" prefWidth="120.0" />
+                                                                    <Label fx:id="label1" text="距离(mm)" />
+                                                                    <TextField fx:id="dis1" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check1" text="勾选有效  1" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="1">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir2" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action2" prefWidth="120.0" />
+                                                                    <Label fx:id="label2" text="距离(mm)" />
+                                                                    <TextField fx:id="dis2" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check2" text="勾选有效  2" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="2">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir3" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action3" prefWidth="120.0" />
+                                                                    <Label fx:id="label3" text="距离(mm)" />
+                                                                    <TextField fx:id="dis3" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check3" text="勾选有效  3" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="3">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4" prefWidth="120.0" />
+                                                                    <Label fx:id="label4" text="距离(mm)" />
+                                                                    <TextField fx:id="dis4" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4" text="勾选有效  4" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="4">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir5" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action5" prefWidth="120.0" />
+                                                                    <Label fx:id="label5" text="距离(mm)" />
+                                                                    <TextField fx:id="dis5" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check5" text="勾选有效  5" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="5">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir6" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action6" prefWidth="120.0" />
+                                                                    <Label fx:id="label6" text="距离(mm)" />
+                                                                    <TextField fx:id="dis6" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check6" text="勾选有效  6" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="6">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir7" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action7" prefWidth="120.0" />
+                                                                    <Label fx:id="label7" text="距离(mm)" />
+                                                                    <TextField fx:id="dis7" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check7" text="勾选有效  7" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="7">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir8" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action8" prefWidth="120.0" />
+                                                                    <Label fx:id="label8" text="距离(mm)" />
+                                                                    <TextField fx:id="dis8" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check8" text="勾选有效  8" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="8">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir9" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action9" prefWidth="120.0" />
+                                                                    <Label fx:id="label9" text="距离(mm)" />
+                                                                    <TextField fx:id="dis9" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check9" text="勾选有效  9" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="9">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir10" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action10" prefWidth="120.0" />
+                                                                    <Label fx:id="label10" text="距离(mm)" />
+                                                                    <TextField fx:id="dis10" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check10" text="勾选有效 10" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="10">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir11" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action11" prefWidth="120.0" />
+                                                                    <Label fx:id="label11" text="距离(mm)" />
+                                                                    <TextField fx:id="dis11" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check11" text="勾选有效 11" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="11">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir12" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action12" prefWidth="120.0" />
+                                                                    <Label fx:id="label12" text="距离(mm)" />
+                                                                    <TextField fx:id="dis12" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check12" text="勾选有效 12" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="12">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir13" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action13" prefWidth="120.0" />
+                                                                    <Label fx:id="label13" text="距离(mm)" />
+                                                                    <TextField fx:id="dis13" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check13" text="勾选有效 13" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="13">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir14" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action14" prefWidth="120.0" />
+                                                                    <Label fx:id="label14" text="距离(mm)" />
+                                                                    <TextField fx:id="dis14" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check14" text="勾选有效 14" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="14">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir15" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action15" prefWidth="120.0" />
+                                                                    <Label fx:id="label15" text="距离(mm)" />
+                                                                    <TextField fx:id="dis15" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check15" text="勾选有效 15" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="15">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir16" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action16" prefWidth="120.0" />
+                                                                    <Label fx:id="label16" text="距离(mm)" />
+                                                                    <TextField fx:id="dis16" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check16" text="勾选有效 16" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="16">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir17" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action17" prefWidth="120.0" />
+                                                                    <Label fx:id="label17" text="距离(mm)" />
+                                                                    <TextField fx:id="dis17" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check17" text="勾选有效 17" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="17">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir18" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action18" prefWidth="120.0" />
+                                                                    <Label fx:id="label18" text="距离(mm)" />
+                                                                    <TextField fx:id="dis18" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check18" text="勾选有效 18" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="18">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir19" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action19" prefWidth="120.0" />
+                                                                    <Label fx:id="label19" text="距离(mm)" />
+                                                                    <TextField fx:id="dis19" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check19" text="勾选有效 19" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="19">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir20" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action20" prefWidth="120.0" />
+                                                                    <Label fx:id="label20" text="距离(mm)" />
+                                                                    <TextField fx:id="dis20" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check20" text="勾选有效 20" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="20">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir21" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action21" prefWidth="120.0" />
+                                                                    <Label fx:id="label21" text="距离(mm)" />
+                                                                    <TextField fx:id="dis21" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check21" text="勾选有效 21" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="21">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir22" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action22" prefWidth="120.0" />
+                                                                    <Label fx:id="label22" text="距离(mm)" />
+                                                                    <TextField fx:id="dis22" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check22" text="勾选有效 22" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="22">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir23" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action23" prefWidth="120.0" />
+                                                                    <Label fx:id="label23" text="距离(mm)" />
+                                                                    <TextField fx:id="dis23" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check23" text="勾选有效 23" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="23">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir24" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action24" prefWidth="120.0" />
+                                                                    <Label fx:id="label24" text="距离(mm)" />
+                                                                    <TextField fx:id="dis24" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check24" text="勾选有效 24" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="24">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir25" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action25" prefWidth="120.0" />
+                                                                    <Label fx:id="label25" text="距离(mm)" />
+                                                                    <TextField fx:id="dis25" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check25" text="勾选有效 25" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="25">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir26" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action26" prefWidth="120.0" />
+                                                                    <Label fx:id="label26" text="距离(mm)" />
+                                                                    <TextField fx:id="dis26" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check26" text="勾选有效 26" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="26">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir27" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action27" prefWidth="120.0" />
+                                                                    <Label fx:id="label27" text="距离(mm)" />
+                                                                    <TextField fx:id="dis27" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check27" text="勾选有效 27" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="27">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir28" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action28" prefWidth="120.0" />
+                                                                    <Label fx:id="label28" text="距离(mm)" />
+                                                                    <TextField fx:id="dis28" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check28" text="勾选有效 28" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="28">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir29" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action29" prefWidth="120.0" />
+                                                                    <Label fx:id="label29" text="距离(mm)" />
+                                                                    <TextField fx:id="dis29" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check29" text="勾选有效 29" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="29">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir30" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action30" prefWidth="120.0" />
+                                                                    <Label fx:id="label30" text="距离(mm)" />
+                                                                    <TextField fx:id="dis30" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check30" text="勾选有效 30" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="30">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir31" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action31" prefWidth="120.0" />
+                                                                    <Label fx:id="label31" text="距离(mm)" />
+                                                                    <TextField fx:id="dis31" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check31" text="勾选有效 31" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="31">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir32" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action32" prefWidth="120.0" />
+                                                                    <Label fx:id="label32" text="距离(mm)" />
+                                                                    <TextField fx:id="dis32" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check32" text="勾选有效 32" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="32">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir33" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action33" prefWidth="120.0" />
+                                                                    <Label fx:id="label33" text="距离(mm)" />
+                                                                    <TextField fx:id="dis33" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check33" text="勾选有效 33" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="33">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir34" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action34" prefWidth="120.0" />
+                                                                    <Label fx:id="label34" text="距离(mm)" />
+                                                                    <TextField fx:id="dis34" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check34" text="勾选有效 34" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="34">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir35" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action35" prefWidth="120.0" />
+                                                                    <Label fx:id="label35" text="距离(mm)" />
+                                                                    <TextField fx:id="dis35" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check35" text="勾选有效 35" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="35">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir36" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action36" prefWidth="120.0" />
+                                                                    <Label fx:id="label36" text="距离(mm)" />
+                                                                    <TextField fx:id="dis36" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check36" text="勾选有效 36" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="36">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir37" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action37" prefWidth="120.0" />
+                                                                    <Label fx:id="label37" text="距离(mm)" />
+                                                                    <TextField fx:id="dis37" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check37" text="勾选有效 37" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="37">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir38" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action38" prefWidth="120.0" />
+                                                                    <Label fx:id="label38" text="距离(mm)" />
+                                                                    <TextField fx:id="dis38" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check38" text="勾选有效 38" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="38">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir39" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action39" prefWidth="120.0" />
+                                                                    <Label fx:id="label39" text="距离(mm)" />
+                                                                    <TextField fx:id="dis39" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check39" text="勾选有效 39" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="39">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40" prefWidth="120.0" />
+                                                                    <Label fx:id="label40" text="距离(mm)" />
+                                                                    <TextField fx:id="dis40" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40" text="勾选有效 40" />
+                                                                </children>
+                                                            </HBox>
+                                                        </children>
+                                                    </GridPane>
+                                                </children>
+                                            </StackPane>
+                                        </children>
+                                    </AnchorPane>
+                                </content>
+                            </ScrollPane>
+                        </children>
+                    </VBox>
+                    <VBox alignment="CENTER" prefHeight="115.0" prefWidth="905.0" GridPane.columnSpan="3" GridPane.rowIndex="7">
+                        <children>
+                            <HBox fx:id="hbox_end" alignment="CENTER" prefHeight="100.0" prefWidth="903.0" spacing="10.0" style="-fx-border-color: Gainsboro;">
+                                <children>
+                                    <Label text="循环" />
+                                    <TextField fx:id="times" alignment="CENTER" prefHeight="30.0" prefWidth="46.0" text="1" />
+                                    <JFXButton fx:id="start" onAction="#flashAction" style="-fx-background-color: Gainsboro;" text="开始执行">
+                                        <HBox.margin>
+                                            <Insets left="30.0" />
+                                        </HBox.margin>
+                                    </JFXButton>
+                                </children>
+                            </HBox>
+                        </children>
+                    </VBox>
+                    <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnSpan="3">
+                        <children>
+                            <MenuBar fx:id="mb" prefHeight="32.0" prefWidth="905.0" style="-fx-background-color: Gainsboro;">
+                                <menus>
+                                    <Menu mnemonicParsing="false" text="日志">
+                                        <items>
+                                            <MenuItem mnemonicParsing="false" text="查看日志" />
+                                        </items>
+                                    </Menu>
+
+                                    <Menu mnemonicParsing="false" text="配置">
+                                        <items>
+                                            <MenuItem mnemonicParsing="false" text="保存配置" />
+                                        </items>
+                                        <items>
+                                            <MenuItem mnemonicParsing="false" text="加载配置" />
+                                        </items>
+                                    </Menu>
+
+                                    <Menu mnemonicParsing="false" text="版本">
+                                        <items>
+                                            <MenuItem mnemonicParsing="false" text="当前版本" />
+                                        </items>
+                                        <items>
+                                            <MenuItem mnemonicParsing="false" text="历史版本" />
+                                        </items>
+                                    </Menu>
+
+                                </menus>
+                            </MenuBar>
+                        </children>
+                    </HBox>
+                </children>
+            </GridPane>
+
+        </StackPane>
+
+
+    </children>
+
+</AnchorPane>

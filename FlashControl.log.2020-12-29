@@ -1,0 +1,1053 @@
+[14:21:11.391][DEBUG][galaxis.lee.tcp.TcpClientProvider.connect(TcpClientProvider.java:159)]  Connecting success!
+[14:21:11.497][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 4 0
+[14:21:11.499][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:21:11.700][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:222)]  Connecting success
+[14:21:14.298][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1501
+[14:21:14.298][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 dd 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:14.357][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 dd 0 8 53 44 0 2 4 0
+[14:21:14.359][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 dd 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:17.298][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1502
+[14:21:17.298][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 de 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:17.515][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 de 0 8 53 44 0 2 4 0
+[14:21:17.516][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 de 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:19.569][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 1 , action: 1, length: 1230
+[14:21:19.570][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:1, sA.type:1, actionmove
+[14:21:19.570][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:45)]  Send move, 1, 1230
+[14:21:19.570][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 d 0 8 0 1 0 0 0 0 0 0 0 0 0 0 0 0 4 ce 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:19.572][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:21:19.573][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:21:19.622][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 d 0 8 0 1 0 1 0 0
+[14:21:20.075][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:378)]  reSend >>> times:1
+[14:21:20.075][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 d 0 8 0 1 0 0 0 0 0 0 0 0 0 0 0 0 4 ce 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:20.075][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:21:20.076][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:21:20.299][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1503
+[14:21:20.299][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 df 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:20.352][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 df 0 8 53 44 0 2 8 0
+[14:21:20.353][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 df 0 8 53 44 0 2 8 0 0 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:20.354][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:21:20.354][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:21:20.577][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:381)]  next task >>>
+[14:21:20.577][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:407)]  process_start1609222880577
+[14:21:23.045][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 28 0
+[14:21:23.300][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1504
+[14:21:23.300][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e0 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:23.350][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e0 0 8 53 44 0 2 28 0
+[14:21:23.351][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e0 0 8 53 44 0 2 28 0 3 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:23.552][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 8 0
+[14:21:23.836][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 d 0 8 0 1 0 3 0 0
+[14:21:23.837][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:21:23.837][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:21:23.885][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:57)]  Task result is 1
+[14:21:26.300][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1505
+[14:21:26.300][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e1 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:26.366][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e1 0 8 53 44 0 2 4 0
+[14:21:26.367][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e1 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:29.300][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1506
+[14:21:29.300][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e2 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:29.353][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e2 0 8 53 44 0 2 4 0
+[14:21:29.354][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e2 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:32.300][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1507
+[14:21:32.300][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e3 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:32.604][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e3 0 8 53 44 0 2 4 0
+[14:21:32.605][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e3 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:35.301][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1508
+[14:21:35.301][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e4 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:35.359][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e4 0 8 53 44 0 2 4 0
+[14:21:35.360][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e4 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:36.795][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 2 , action: 1, length: 0
+[14:21:36.795][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:1, sA.type:2, actionload
+[14:21:36.795][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:69)]  Send action, 1
+[14:21:36.796][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:130)]  Task id is 14
+[14:21:36.796][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 e 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+[14:21:36.796][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:21:36.796][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:21:36.844][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 e 0 8 0 3 0 1 0 0
+[14:21:37.297][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:1
+[14:21:37.297][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 e 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+[14:21:37.297][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:21:37.297][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:21:37.798][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:2
+[14:21:37.798][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 e 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+[14:21:37.798][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:21:37.799][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:21:38.299][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:3
+[14:21:38.299][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 e 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+[14:21:38.299][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:21:38.300][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:21:38.301][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1509
+[14:21:38.301][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e5 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:38.556][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e5 0 8 53 44 0 2 8 0
+[14:21:38.557][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e5 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 e 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:38.557][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:21:38.557][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:21:38.801][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:227)]  next task >>>
+[14:21:41.302][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1510
+[14:21:41.302][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e6 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:21:41.362][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e6 0 8 53 44 0 2 8 0
+[14:21:41.364][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e6 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 e 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:34:19.882][DEBUG][galaxis.lee.tcp.TcpClientProvider.connect(TcpClientProvider.java:159)]  Connecting success!
+[14:34:20.527][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:21.528][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:22.530][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:23.531][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:24.531][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:25.531][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:26.531][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:27.531][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:28.532][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:29.532][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:30.533][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:31.533][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:32.534][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:32.640][DEBUG][galaxis.lee.tcp.TcpClient.<init>(TcpClient.java:22)]  java.net.ConnectException: Connection refused: connect
+[14:34:33.241][DEBUG][galaxis.lee.tcp.TcpClient.<init>(TcpClient.java:22)]  java.net.ConnectException: Connection refused: connect
+[14:34:33.534][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:33.768][DEBUG][galaxis.lee.tcp.TcpClient.<init>(TcpClient.java:22)]  java.net.ConnectException: Connection refused: connect
+[14:34:34.534][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:34.832][ERROR][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:629)]  java.net.ConnectException: Connection refused: connect
+[14:34:35.458][ERROR][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:629)]  java.net.ConnectException: Connection refused: connect
+[14:34:35.535][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:35.997][ERROR][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:629)]  java.net.ConnectException: Connection refused: connect
+[14:34:36.535][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:37.535][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:38.536][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:39.537][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:40.537][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:41.537][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:42.538][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:43.539][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:44.207][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 1 10 0
+[14:34:44.208][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:34:44.336][ERROR][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:629)]  java.net.ConnectException: Connection refused: connect
+[14:34:44.539][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:45.065][ERROR][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:629)]  java.net.ConnectException: Connection refused: connect
+[14:34:45.540][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:45.732][ERROR][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:629)]  java.net.ConnectException: Connection refused: connect
+[14:34:46.541][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:46.840][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1501
+[14:34:46.840][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 dd 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:34:46.914][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 dd 0 8 53 44 0 1 10 0
+[14:34:46.916][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 dd 0 8 53 44 0 1 10 0 6 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:34:47.117][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 11 0
+[14:34:47.542][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:48.543][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:49.543][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:49.841][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1502
+[14:34:49.841][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 de 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:34:50.203][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 de 0 8 53 44 0 2 11 0
+[14:34:50.205][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 de 0 8 53 44 0 2 11 0 6 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:34:50.544][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:50.903][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 1 10 0
+[14:34:51.544][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:51.697][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 11 0
+[14:34:52.545][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:52.841][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1503
+[14:34:52.841][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 df 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:34:53.094][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 df 0 8 53 44 0 2 11 0
+[14:34:53.095][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 df 0 8 53 44 0 2 11 0 6 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:34:53.546][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:54.261][ERROR][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:629)]  java.net.ConnectException: Connection refused: connect
+[14:34:54.546][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:54.882][ERROR][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:629)]  java.net.ConnectException: Connection refused: connect
+[14:34:55.395][ERROR][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:629)]  java.net.ConnectException: Connection refused: connect
+[14:34:55.547][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:55.841][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1504
+[14:34:55.841][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e0 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:34:55.918][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e0 0 8 53 44 0 2 11 0
+[14:34:55.919][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e0 0 8 53 44 0 2 11 0 6 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:34:56.547][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:57.548][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:58.548][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:34:58.841][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1505
+[14:34:58.841][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e1 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:34:58.952][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e1 0 8 53 44 0 2 11 0
+[14:34:58.954][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e1 0 8 53 44 0 2 11 0 6 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:34:59.548][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:00.549][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:01.549][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:01.842][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1506
+[14:35:01.842][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e2 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:35:01.929][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e2 0 8 53 44 0 2 11 0
+[14:35:01.930][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e2 0 8 53 44 0 2 11 0 6 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:35:02.550][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:03.550][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:03.979][ERROR][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:629)]  java.net.ConnectException: Connection refused: connect
+[14:35:04.550][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:04.569][ERROR][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:629)]  java.net.ConnectException: Connection refused: connect
+[14:35:04.843][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1507
+[14:35:04.843][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e3 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:35:04.951][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e3 0 8 53 44 0 2 11 0
+[14:35:04.953][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e3 0 8 53 44 0 2 11 0 6 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:35:04.987][ERROR][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:629)]  java.net.ConnectException: Connection refused: connect
+[14:35:05.551][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:06.551][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:07.552][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:07.844][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1508
+[14:35:07.844][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e4 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:35:08.093][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e4 0 8 53 44 0 2 11 0
+[14:35:08.094][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e4 0 8 53 44 0 2 11 0 6 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:35:08.553][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:09.553][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:10.554][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:10.845][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1509
+[14:35:10.845][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e5 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:35:10.900][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e5 0 8 53 44 0 2 11 0
+[14:35:10.901][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e5 0 8 53 44 0 2 11 0 6 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:35:11.555][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:28.671][DEBUG][galaxis.lee.tcp.TcpClientProvider.connect(TcpClientProvider.java:159)]  Connecting success!
+[14:35:28.886][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:29.887][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:30.888][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:31.889][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:32.889][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:33.889][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:34.889][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:35.890][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:36.890][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:37.890][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:38.891][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:39.892][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:40.893][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:35:41.893][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:40:21.466][DEBUG][galaxis.lee.tcp.TcpClientProvider.connect(TcpClientProvider.java:159)]  Connecting success!
+[14:40:21.625][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:227)]  Connection failed
+[14:40:21.874][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 4 0
+[14:40:21.874][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:40:22.627][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:222)]  Connecting success
+[14:40:24.436][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1501
+[14:40:24.436][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 dd 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:24.603][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 dd 0 8 53 44 0 2 4 0
+[14:40:24.606][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 dd 0 8 53 44 0 2 4 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:27.436][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1502
+[14:40:27.436][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 de 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:27.496][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 de 0 8 53 44 0 2 4 0
+[14:40:27.498][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 de 0 8 53 44 0 2 4 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:30.436][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1503
+[14:40:30.436][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 df 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:30.493][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 df 0 8 53 44 0 2 4 0
+[14:40:30.498][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 df 0 8 53 44 0 2 4 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:33.437][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1504
+[14:40:33.437][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e0 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:33.529][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e0 0 8 53 44 0 2 4 0
+[14:40:33.531][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e0 0 8 53 44 0 2 4 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:36.437][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1505
+[14:40:36.437][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e1 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:36.513][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e1 0 8 53 44 0 2 4 0
+[14:40:36.515][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e1 0 8 53 44 0 2 4 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:39.439][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1506
+[14:40:39.439][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e2 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:39.588][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e2 0 8 53 44 0 2 4 0
+[14:40:39.590][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e2 0 8 53 44 0 2 4 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:42.158][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 2 , action: 3, length: 0
+[14:40:42.158][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:1, sA.type:2, actionload
+[14:40:42.159][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:69)]  Send action, 3
+[14:40:42.159][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:130)]  Task id is 13
+[14:40:42.159][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 d 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0
+[14:40:42.160][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:40:42.161][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:40:42.220][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 d 0 8 0 4 0 1 0 0
+[14:40:42.439][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1507
+[14:40:42.439][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e3 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:42.499][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e3 0 8 53 44 0 2 8 0
+[14:40:42.501][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e3 0 8 53 44 0 2 8 0 6 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:42.501][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:40:42.501][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:40:42.662][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:227)]  next task >>>
+[14:40:45.440][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1508
+[14:40:45.440][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e4 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:45.488][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e4 0 8 53 44 0 2 8 0
+[14:40:45.489][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e4 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:48.440][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1509
+[14:40:48.440][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e5 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:48.493][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e5 0 8 53 44 0 2 8 0
+[14:40:48.494][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e5 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:48.846][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 d 0 8 0 4 0 3 0 0
+[14:40:48.847][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:40:48.847][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:40:48.979][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:81)]  Task result is 1
+[14:40:51.440][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1510
+[14:40:51.440][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e6 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:51.486][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e6 0 8 53 44 0 2 4 0
+[14:40:51.488][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e6 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:54.441][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1511
+[14:40:54.441][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e7 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:54.604][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e7 0 8 53 44 0 2 4 0
+[14:40:54.605][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e7 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:55.659][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 2 , action: 1, length: 0
+[14:40:55.660][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:1, sA.type:2, actionload
+[14:40:55.660][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:69)]  Send action, 1
+[14:40:55.660][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:130)]  Task id is 14
+[14:40:55.661][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 e 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+[14:40:55.661][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:40:55.661][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:40:55.719][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 e 0 8 0 3 0 1 0 0
+[14:40:56.162][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:1
+[14:40:56.162][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 e 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+[14:40:56.162][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:40:56.163][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:40:56.663][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:2
+[14:40:56.663][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 e 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+[14:40:56.663][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:40:56.664][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:40:57.164][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:3
+[14:40:57.164][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 e 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+[14:40:57.164][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:40:57.165][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:40:57.441][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1512
+[14:40:57.441][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e8 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:57.497][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e8 0 8 53 44 0 2 8 0
+[14:40:57.498][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e8 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 e 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:40:57.498][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:40:57.498][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:40:57.666][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:227)]  next task >>>
+[14:41:00.443][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1513
+[14:41:00.443][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e9 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:00.497][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e9 0 8 53 44 0 2 8 0
+[14:41:00.498][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e9 0 8 53 44 0 2 8 0 7 0 0 0 0 0 0 0 0 e 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:02.379][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 e 0 8 0 3 0 3 0 0
+[14:41:02.379][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:41:02.379][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:41:02.578][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:81)]  Task result is 1
+[14:41:03.443][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1514
+[14:41:03.443][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 ea 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:03.488][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 ea 0 8 53 44 0 2 4 0
+[14:41:03.489][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 ea 0 8 53 44 0 2 4 0 6 0 0 0 0 0 0 0 0 e 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:06.444][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1515
+[14:41:06.444][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 eb 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:06.493][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 eb 0 8 53 44 0 2 4 0
+[14:41:06.494][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 eb 0 8 53 44 0 2 4 0 6 0 0 0 0 0 0 0 0 e 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:09.444][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1516
+[14:41:09.444][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 ec 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:09.587][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 ec 0 8 53 44 0 2 4 0
+[14:41:09.589][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 ec 0 8 53 44 0 2 4 0 6 0 0 0 0 0 0 0 0 e 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:09.829][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 2 , action: 3, length: 0
+[14:41:09.829][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:1, sA.type:2, actionload
+[14:41:09.830][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:69)]  Send action, 3
+[14:41:09.830][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:130)]  Task id is 15
+[14:41:09.830][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 f 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0
+[14:41:09.830][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:41:09.831][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:41:09.893][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 f 0 8 0 4 0 1 0 0
+[14:41:10.332][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:1
+[14:41:10.332][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 f 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0
+[14:41:10.332][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:41:10.333][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:41:10.833][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:2
+[14:41:10.833][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 f 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0
+[14:41:10.833][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:41:10.834][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:41:11.334][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:3
+[14:41:11.334][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 f 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0
+[14:41:11.334][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:41:11.335][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:41:11.836][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:4
+[14:41:11.836][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 f 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0
+[14:41:11.836][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:41:11.837][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:41:12.337][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:5
+[14:41:12.337][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 f 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0
+[14:41:12.337][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:41:12.338][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:41:12.445][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1517
+[14:41:12.445][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 ed 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:12.516][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 ed 0 8 53 44 0 2 8 0
+[14:41:12.517][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 ed 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:12.518][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:41:12.518][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:41:12.839][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:227)]  next task >>>
+[14:41:15.445][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1518
+[14:41:15.445][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 ee 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:15.530][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 ee 0 8 53 44 0 2 8 0
+[14:41:15.531][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 ee 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:16.797][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 f 0 8 0 4 0 3 0 0
+[14:41:16.798][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:41:16.798][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:41:16.946][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:81)]  Task result is 1
+[14:41:18.446][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1519
+[14:41:18.446][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 ef 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:18.487][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 ef 0 8 53 44 0 2 4 0
+[14:41:18.488][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 ef 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:21.447][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1520
+[14:41:21.447][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f0 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:21.492][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f0 0 8 53 44 0 2 4 0
+[14:41:21.493][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f0 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:24.447][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1521
+[14:41:24.447][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f1 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:24.564][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f1 0 8 53 44 0 2 4 0
+[14:41:24.566][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f1 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:27.448][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1522
+[14:41:27.448][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f2 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:27.504][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f2 0 8 53 44 0 2 4 0
+[14:41:27.505][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f2 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:30.448][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1523
+[14:41:30.448][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f3 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:30.504][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f3 0 8 53 44 0 2 4 0
+[14:41:30.505][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f3 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:33.449][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1524
+[14:41:33.449][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f4 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:33.502][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f4 0 8 53 44 0 2 4 0
+[14:41:33.503][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f4 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:36.449][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1525
+[14:41:36.449][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f5 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:36.495][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f5 0 8 53 44 0 2 4 0
+[14:41:36.496][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f5 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:39.450][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1526
+[14:41:39.450][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f6 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:39.597][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f6 0 8 53 44 0 2 4 0
+[14:41:39.598][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f6 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:42.450][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1527
+[14:41:42.450][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f7 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:42.526][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f7 0 8 53 44 0 2 4 0
+[14:41:42.528][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f7 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:45.450][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1528
+[14:41:45.450][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f8 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:45.501][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f8 0 8 53 44 0 2 4 0
+[14:41:45.502][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f8 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:48.451][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1529
+[14:41:48.451][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f9 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:48.496][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f9 0 8 53 44 0 2 4 0
+[14:41:48.498][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f9 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:49.873][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 0 0
+[14:41:50.383][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 11 0
+[14:41:51.452][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1530
+[14:41:51.452][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 fa 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:51.514][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 fa 0 8 53 44 0 2 11 0
+[14:41:51.515][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 fa 0 8 53 44 0 2 11 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:54.452][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1531
+[14:41:54.452][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 fb 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:54.619][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 fb 0 8 53 44 0 2 11 0
+[14:41:54.620][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 fb 0 8 53 44 0 2 11 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:57.453][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1532
+[14:41:57.453][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 fc 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:41:57.527][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 fc 0 8 53 44 0 2 11 0
+[14:41:57.528][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 fc 0 8 53 44 0 2 11 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:00.454][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1533
+[14:42:00.454][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 fd 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:00.502][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 fd 0 8 53 44 0 2 11 0
+[14:42:00.504][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 fd 0 8 53 44 0 2 11 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:03.454][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1534
+[14:42:03.454][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 fe 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:03.506][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 fe 0 8 53 44 0 2 11 0
+[14:42:03.508][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 fe 0 8 53 44 0 2 11 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:06.455][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1535
+[14:42:06.455][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 ff 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:06.521][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 ff 0 8 53 44 0 2 11 0
+[14:42:06.522][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 ff 0 8 53 44 0 2 11 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:09.455][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1536
+[14:42:09.455][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 0 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:09.619][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 0 0 8 53 44 0 2 11 0
+[14:42:09.620][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 0 0 8 53 44 0 2 11 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:12.455][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1537
+[14:42:12.455][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 1 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:12.506][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 1 0 8 53 44 0 2 11 0
+[14:42:12.508][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 1 0 8 53 44 0 2 11 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:15.456][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1538
+[14:42:15.456][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 2 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:15.510][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 2 0 8 53 44 0 2 11 0
+[14:42:15.511][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 2 0 8 53 44 0 2 11 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:18.456][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1539
+[14:42:18.456][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 3 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:18.520][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 3 0 8 53 44 0 2 11 0
+[14:42:18.521][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 3 0 8 53 44 0 2 11 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:21.457][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1540
+[14:42:21.457][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 4 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:21.516][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 4 0 8 53 44 0 2 11 0
+[14:42:21.517][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 4 0 8 53 44 0 2 11 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:22.977][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 1 10 0
+[14:42:24.458][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1541
+[14:42:24.458][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 5 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:24.517][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 5 0 8 53 44 0 1 10 0
+[14:42:24.518][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 5 0 8 53 44 0 1 10 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:25.882][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 4 0
+[14:42:26.657][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 0 0
+[14:42:26.858][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 4 0
+[14:42:27.459][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1542
+[14:42:27.459][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 6 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:27.520][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 6 0 8 53 44 0 2 4 0
+[14:42:27.521][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 6 0 8 53 44 0 2 4 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:28.045][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 0 0
+[14:42:28.255][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 4 0
+[14:42:30.460][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1543
+[14:42:30.460][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 7 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:30.503][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 7 0 8 53 44 0 2 4 0
+[14:42:30.504][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 7 0 8 53 44 0 2 4 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:33.461][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1544
+[14:42:33.461][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 8 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:33.502][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 8 0 8 53 44 0 2 4 0
+[14:42:33.503][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 8 0 8 53 44 0 2 4 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:36.461][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1545
+[14:42:36.461][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 9 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:36.521][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 9 0 8 53 44 0 2 4 0
+[14:42:36.522][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 9 0 8 53 44 0 2 4 0 5 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:38.347][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 2 , action: 4, length: 0
+[14:42:38.347][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:1, sA.type:2, actionload
+[14:42:38.348][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:69)]  Send action, 4
+[14:42:38.348][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:130)]  Task id is 16
+[14:42:38.348][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 10 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0
+[14:42:38.348][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:42:38.348][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:42:38.393][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 10 0 8 0 4 0 1 0 0
+[14:42:38.849][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:1
+[14:42:38.849][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 10 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0
+[14:42:38.849][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:42:38.850][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:42:39.350][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:2
+[14:42:39.350][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 10 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0
+[14:42:39.350][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:42:39.350][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:42:39.461][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1546
+[14:42:39.461][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 a 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:39.595][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 a 0 8 53 44 0 2 8 0
+[14:42:39.596][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 a 0 8 53 44 0 2 8 0 5 0 0 0 0 0 0 0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:39.597][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:42:39.597][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:42:39.852][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:227)]  next task >>>
+[14:42:42.461][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1547
+[14:42:42.461][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 b 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:42.525][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 b 0 8 53 44 0 2 8 0
+[14:42:42.526][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 b 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:45.462][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1548
+[14:42:45.462][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 c 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:45.510][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 c 0 8 53 44 0 2 8 0
+[14:42:45.511][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 c 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:45.712][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 10 0 8 0 4 0 3 0 0
+[14:42:45.712][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:42:45.712][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:42:45.765][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:81)]  Task result is 1
+[14:42:48.462][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1549
+[14:42:48.462][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 d 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:48.519][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 d 0 8 53 44 0 2 4 0
+[14:42:48.520][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 d 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:50.120][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 2 , action: 2, length: 0
+[14:42:50.121][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:1, sA.type:2, actionload
+[14:42:50.121][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:69)]  Send action, 2
+[14:42:50.121][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:130)]  Task id is 17
+[14:42:50.121][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 11 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+[14:42:50.121][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:42:50.121][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:42:50.176][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 11 0 8 0 3 0 1 0 0
+[14:42:50.622][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:1
+[14:42:50.622][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 11 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+[14:42:50.622][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:42:50.622][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:42:51.123][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:2
+[14:42:51.123][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 11 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+[14:42:51.123][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:42:51.124][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:42:51.462][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1550
+[14:42:51.462][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 e 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:51.546][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 e 0 8 53 44 0 2 8 0
+[14:42:51.547][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 e 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:51.547][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:42:51.547][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:42:51.625][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:227)]  next task >>>
+[14:42:54.463][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1551
+[14:42:54.463][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 f 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:54.585][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 f 0 8 53 44 0 2 8 0
+[14:42:54.586][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 f 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:56.816][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 11 0 8 0 3 0 3 0 0
+[14:42:56.817][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:42:56.817][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:42:56.935][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:81)]  Task result is 1
+[14:42:57.464][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1552
+[14:42:57.464][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 10 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:42:57.514][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 10 0 8 53 44 0 2 4 0
+[14:42:57.515][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 10 0 8 53 44 0 2 4 0 5 0 0 0 0 0 0 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:00.464][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1553
+[14:43:00.464][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 11 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:00.520][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 11 0 8 53 44 0 2 4 0
+[14:43:00.521][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 11 0 8 53 44 0 2 4 0 5 0 0 0 0 0 0 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:03.464][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1554
+[14:43:03.464][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 12 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:03.514][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 12 0 8 53 44 0 2 4 0
+[14:43:03.515][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 12 0 8 53 44 0 2 4 0 5 0 0 0 0 0 0 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:04.332][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 2 , action: 4, length: 0
+[14:43:04.332][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:1, sA.type:2, actionload
+[14:43:04.332][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:69)]  Send action, 4
+[14:43:04.332][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:130)]  Task id is 18
+[14:43:04.332][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 12 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0
+[14:43:04.333][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:43:04.333][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:43:04.521][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 12 0 8 0 4 0 1 0 0
+[14:43:04.834][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:1
+[14:43:04.834][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 12 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0
+[14:43:04.834][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:43:04.834][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:43:05.335][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:2
+[14:43:05.335][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 12 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0
+[14:43:05.335][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:43:05.335][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:43:05.837][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:3
+[14:43:05.837][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 12 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0
+[14:43:05.837][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:43:05.838][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:43:06.339][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:4
+[14:43:06.339][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 12 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0
+[14:43:06.339][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:43:06.340][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:43:06.464][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1555
+[14:43:06.464][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 13 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:06.621][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 13 0 8 53 44 0 2 8 0
+[14:43:06.622][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 13 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:06.622][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:43:06.623][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:43:06.840][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:227)]  next task >>>
+[14:43:09.465][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1556
+[14:43:09.465][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 14 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:09.538][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 14 0 8 53 44 0 2 8 0
+[14:43:09.539][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 14 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:10.993][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 12 0 8 0 4 0 3 0 0
+[14:43:10.994][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:43:10.994][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:43:11.162][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:81)]  Task result is 1
+[14:43:12.465][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1557
+[14:43:12.465][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 15 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:12.527][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 15 0 8 53 44 0 2 4 0
+[14:43:12.528][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 15 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:15.465][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1558
+[14:43:15.465][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 16 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:15.514][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 16 0 8 53 44 0 2 4 0
+[14:43:15.516][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 16 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:18.466][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1559
+[14:43:18.466][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 17 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:18.527][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 17 0 8 53 44 0 2 4 0
+[14:43:18.528][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 17 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:21.467][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1560
+[14:43:21.467][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 18 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:21.530][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 18 0 8 53 44 0 2 4 0
+[14:43:21.531][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 18 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:24.467][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1561
+[14:43:24.467][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 19 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:24.538][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 19 0 8 53 44 0 2 4 0
+[14:43:24.539][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 19 0 8 53 44 0 2 4 0 3 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:24.836][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 1 , action: 2, length: 1230
+[14:43:24.837][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:1, sA.type:1, actionmove
+[14:43:24.837][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:45)]  Send move, 2, 1230
+[14:43:24.837][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 13 0 8 0 1 0 0 0 0 0 0 ff ff ff ff ff ff fb 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:24.837][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:43:24.837][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:43:24.890][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 13 0 8 0 1 0 1 0 0
+[14:43:25.339][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:378)]  reSend >>> times:1
+[14:43:25.339][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 13 0 8 0 1 0 0 0 0 0 0 ff ff ff ff ff ff fb 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:25.339][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:43:25.339][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:43:25.840][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:378)]  reSend >>> times:2
+[14:43:25.840][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 13 0 8 0 1 0 0 0 0 0 0 ff ff ff ff ff ff fb 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:25.840][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:43:25.840][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:43:26.342][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:378)]  reSend >>> times:3
+[14:43:26.342][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 13 0 8 0 1 0 0 0 0 0 0 ff ff ff ff ff ff fb 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:26.342][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:43:26.342][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:43:26.843][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:378)]  reSend >>> times:4
+[14:43:26.843][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 13 0 8 0 1 0 0 0 0 0 0 ff ff ff ff ff ff fb 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:26.843][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:43:26.843][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:43:27.344][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:378)]  reSend >>> times:5
+[14:43:27.344][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 13 0 8 0 1 0 0 0 0 0 0 ff ff ff ff ff ff fb 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:27.344][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:43:27.345][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:43:27.467][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1562
+[14:43:27.467][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 1a 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:27.522][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 1a 0 8 53 44 0 2 8 0
+[14:43:27.523][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 1a 0 8 53 44 0 2 8 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:27.523][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:43:27.523][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:43:27.845][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:381)]  next task >>>
+[14:43:27.845][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:407)]  process_start1609224207845
+[14:43:28.200][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 28 0
+[14:43:28.786][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 8 0
+[14:43:29.118][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 13 0 8 0 1 0 3 0 0
+[14:43:29.118][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:43:29.118][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:43:29.148][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:57)]  Task result is 1
+[14:43:30.468][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1563
+[14:43:30.468][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 1b 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:30.533][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 1b 0 8 53 44 0 2 4 0
+[14:43:30.534][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 1b 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:33.469][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1564
+[14:43:33.469][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 1c 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:33.531][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 1c 0 8 53 44 0 2 4 0
+[14:43:33.532][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 1c 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:36.469][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1565
+[14:43:36.469][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 1d 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:36.522][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 1d 0 8 53 44 0 2 4 0
+[14:43:36.523][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 1d 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:39.470][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1566
+[14:43:39.470][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 1e 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:39.531][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 1e 0 8 53 44 0 2 4 0
+[14:43:39.532][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 1e 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:42.470][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1567
+[14:43:42.470][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  6 1f 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:43:42.577][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   6 1f 0 8 53 44 0 2 4 0
+[14:43:42.578][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 6 1f 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:00.498][DEBUG][galaxis.lee.tcp.TcpClientProvider.connect(TcpClientProvider.java:159)]  Connecting success!
+[14:46:00.592][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 11 0
+[14:46:00.594][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:46:00.795][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 4 0
+[14:46:00.976][DEBUG][galaxis.lee.senceControl.FXSceneController$RWLog.run(FXSceneController.java:222)]  Connecting success
+[14:46:03.392][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1501
+[14:46:03.392][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 dd 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:03.448][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 dd 0 8 53 44 0 2 4 0
+[14:46:03.451][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 dd 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:06.392][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1502
+[14:46:06.392][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 de 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:06.453][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 de 0 8 53 44 0 2 4 0
+[14:46:06.454][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 de 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:09.393][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1503
+[14:46:09.393][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 df 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:09.531][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 df 0 8 53 44 0 2 4 0
+[14:46:09.534][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 df 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:12.394][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1504
+[14:46:12.394][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e0 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:12.452][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e0 0 8 53 44 0 2 4 0
+[14:46:12.453][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e0 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:15.395][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1505
+[14:46:15.395][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e1 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:15.453][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e1 0 8 53 44 0 2 4 0
+[14:46:15.454][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e1 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:18.395][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1506
+[14:46:18.395][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e2 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:18.441][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e2 0 8 53 44 0 2 4 0
+[14:46:18.442][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e2 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:21.396][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1507
+[14:46:21.396][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e3 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:21.442][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e3 0 8 53 44 0 2 4 0
+[14:46:21.444][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e3 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:24.396][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1508
+[14:46:24.396][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e4 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:24.531][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e4 0 8 53 44 0 2 4 0
+[14:46:24.532][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e4 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:27.396][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1509
+[14:46:27.396][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e5 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:27.461][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e5 0 8 53 44 0 2 4 0
+[14:46:27.462][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e5 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:30.397][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1510
+[14:46:30.397][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e6 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:30.467][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e6 0 8 53 44 0 2 4 0
+[14:46:30.469][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e6 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:33.397][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1511
+[14:46:33.397][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e7 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:33.445][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e7 0 8 53 44 0 2 4 0
+[14:46:33.446][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e7 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:36.398][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1512
+[14:46:36.398][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e8 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:36.463][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e8 0 8 53 44 0 2 4 0
+[14:46:36.463][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e8 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:36.534][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 1 , action: 1, length: 1230
+[14:46:36.534][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 2 , action: 1, length: 0
+[14:46:36.534][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 2 , action: 3, length: 0
+[14:46:36.534][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 2 , action: 2, length: 0
+[14:46:36.534][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 2 , action: 4, length: 0
+[14:46:36.535][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:38)]  type: 1 , action: 2, length: 1230
+[14:46:36.535][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:1, sA.type:1, actionmove
+[14:46:36.535][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:45)]  Send move, 1, 1230
+[14:46:36.535][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 d 0 8 0 1 0 0 0 0 0 0 0 0 0 0 0 0 4 ce 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:36.535][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:46:36.536][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:46:36.663][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 d 0 8 0 1 0 1 0 0
+[14:46:37.037][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:378)]  reSend >>> times:1
+[14:46:37.037][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 d 0 8 0 1 0 0 0 0 0 0 0 0 0 0 0 0 4 ce 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:37.037][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:46:37.038][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:46:37.539][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:378)]  reSend >>> times:2
+[14:46:37.539][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 d 0 8 0 1 0 0 0 0 0 0 0 0 0 0 0 0 4 ce 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:37.539][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:46:37.540][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:46:38.041][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:378)]  reSend >>> times:3
+[14:46:38.041][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 d 0 8 0 1 0 0 0 0 0 0 0 0 0 0 0 0 4 ce 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:38.041][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:46:38.042][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:46:38.543][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:378)]  reSend >>> times:4
+[14:46:38.543][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 d 0 8 0 1 0 0 0 0 0 0 0 0 0 0 0 0 4 ce 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:38.543][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:46:38.544][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:46:39.044][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:378)]  reSend >>> times:5
+[14:46:39.044][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 d 0 8 0 1 0 0 0 0 0 0 0 0 0 0 0 0 4 ce 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:39.044][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:46:39.045][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:46:39.398][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1513
+[14:46:39.398][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 e9 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:39.538][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 e9 0 8 53 44 0 2 8 0
+[14:46:39.539][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 e9 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:39.539][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:46:39.539][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:46:39.546][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:381)]  next task >>>
+[14:46:39.546][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:407)]  process_start1609224399546
+[14:46:39.964][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 28 0
+[14:46:40.534][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 8 0
+[14:46:40.894][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 d 0 8 0 1 0 3 0 0
+[14:46:40.894][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:46:40.894][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:46:41.050][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:57)]  Task result is 1
+[14:46:41.050][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:2, sA.type:2, actionload
+[14:46:41.050][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:69)]  Send action, 1
+[14:46:41.050][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:130)]  Task id is 14
+[14:46:41.051][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 e 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+[14:46:41.051][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:46:41.051][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:46:41.115][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 e 0 8 0 3 0 1 0 0
+[14:46:41.551][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:1
+[14:46:41.551][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 e 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+[14:46:41.551][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:46:41.552][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:46:42.053][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:2
+[14:46:42.053][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 e 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+[14:46:42.053][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:46:42.054][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:46:42.398][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1514
+[14:46:42.398][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 ea 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:42.449][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 ea 0 8 53 44 0 2 8 0
+[14:46:42.450][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 ea 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 e 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:42.451][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:46:42.451][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:46:42.554][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:227)]  next task >>>
+[14:46:45.399][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1515
+[14:46:45.399][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 eb 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:45.448][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 eb 0 8 53 44 0 2 8 0
+[14:46:45.450][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 eb 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 e 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:47.950][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 e 0 8 0 3 0 3 0 0
+[14:46:47.951][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:46:47.951][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:46:48.069][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:81)]  Task result is 1
+[14:46:48.069][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:3, sA.type:2, actionload
+[14:46:48.069][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:69)]  Send action, 3
+[14:46:48.069][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:130)]  Task id is 15
+[14:46:48.070][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 f 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0
+[14:46:48.070][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:46:48.070][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:46:48.152][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 f 0 8 0 4 0 1 0 0
+[14:46:48.399][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1516
+[14:46:48.399][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 ec 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:48.444][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 ec 0 8 53 44 0 2 8 0
+[14:46:48.446][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 ec 0 8 53 44 0 2 8 0 6 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:48.446][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:46:48.446][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:46:48.570][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:227)]  next task >>>
+[14:46:51.400][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1517
+[14:46:51.400][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 ed 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:51.447][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 ed 0 8 53 44 0 2 8 0
+[14:46:51.448][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 ed 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:54.401][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1518
+[14:46:54.401][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 ee 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:54.532][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 ee 0 8 53 44 0 2 8 0
+[14:46:54.533][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 ee 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:54.734][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 f 0 8 0 4 0 3 0 0
+[14:46:54.734][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:46:54.734][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:46:54.889][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:81)]  Task result is 1
+[14:46:54.889][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:4, sA.type:2, actionload
+[14:46:54.889][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:69)]  Send action, 2
+[14:46:54.889][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:130)]  Task id is 16
+[14:46:54.890][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 10 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+[14:46:54.890][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:46:54.890][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:46:54.939][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 10 0 8 0 3 0 1 0 0
+[14:46:55.391][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:1
+[14:46:55.391][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 10 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+[14:46:55.391][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:46:55.392][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:46:55.892][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:2
+[14:46:55.892][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 10 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+[14:46:55.892][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:46:55.893][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:46:56.393][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:3
+[14:46:56.393][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 10 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+[14:46:56.393][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:46:56.394][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:46:56.894][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:4
+[14:46:56.894][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 10 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+[14:46:56.894][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:46:56.895][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:46:57.396][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:5
+[14:46:57.396][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 10 0 8 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+[14:46:57.396][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:46:57.397][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:46:57.401][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1519
+[14:46:57.401][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 ef 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:57.621][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 ef 0 8 53 44 0 2 8 0
+[14:46:57.622][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 ef 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:46:57.622][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:46:57.622][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:46:57.898][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:227)]  next task >>>
+[14:47:00.402][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1520
+[14:47:00.402][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f0 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:00.454][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f0 0 8 53 44 0 2 8 0
+[14:47:00.455][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f0 0 8 53 44 0 2 8 0 5 0 0 0 0 0 0 0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:01.774][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 10 0 8 0 3 0 3 0 0
+[14:47:01.775][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:47:01.775][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:47:01.808][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:81)]  Task result is 1
+[14:47:01.808][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:5, sA.type:2, actionload
+[14:47:01.808][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:69)]  Send action, 4
+[14:47:01.808][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:130)]  Task id is 17
+[14:47:01.809][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 11 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0
+[14:47:01.809][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:47:01.809][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:47:01.976][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 11 0 8 0 4 0 1 0 0
+[14:47:02.309][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:1
+[14:47:02.309][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 11 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0
+[14:47:02.309][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:47:02.309][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:47:02.809][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:2
+[14:47:02.809][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 11 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0
+[14:47:02.809][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:47:02.810][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:47:03.311][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:225)]  reSend >>> times:3
+[14:47:03.311][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:203)]  send loadUpDown  0 11 0 8 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0
+[14:47:03.311][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:206)]  Set Busy Free as start
+[14:47:03.311][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:208)]  send success
+[14:47:03.402][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1521
+[14:47:03.402][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f1 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:03.567][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f1 0 8 53 44 0 2 8 0
+[14:47:03.568][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f1 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:03.568][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:47:03.569][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:47:03.812][DEBUG][galaxis.lee.control.V4ShuttleConnector2.loadUpDown(V4ShuttleConnector2.java:227)]  next task >>>
+[14:47:06.403][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1522
+[14:47:06.403][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f2 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:06.453][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f2 0 8 53 44 0 2 8 0
+[14:47:06.454][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f2 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:08.561][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 11 0 8 0 4 0 3 0 0
+[14:47:08.561][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:47:08.561][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:47:08.722][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:81)]  Task result is 1
+[14:47:08.722][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:42)]  num:6, sA.type:1, actionmove
+[14:47:08.722][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:45)]  Send move, 2, 1230
+[14:47:08.722][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 12 0 8 0 1 0 0 0 0 0 0 ff ff ff ff ff ff fb 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:08.723][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:47:08.723][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:47:08.772][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 12 0 8 0 1 0 1 0 0
+[14:47:09.223][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:378)]  reSend >>> times:1
+[14:47:09.223][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:339)]  send moveTo 0 12 0 8 0 1 0 0 0 0 0 0 ff ff ff ff ff ff fb 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:09.223][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:342)]  Set Busy Free as start
+[14:47:09.224][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:344)]  send success!
+[14:47:09.403][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1523
+[14:47:09.403][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f3 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:09.583][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f3 0 8 53 44 0 2 8 0
+[14:47:09.584][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f3 0 8 53 44 0 2 8 0 3 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:09.584][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:731)]  reSend false 
+[14:47:09.584][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:740)]  Set busy
+[14:47:09.725][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:381)]  next task >>>
+[14:47:09.725][DEBUG][galaxis.lee.control.V4ShuttleConnector2.moveTo(V4ShuttleConnector2.java:407)]  process_start1609224429725
+[14:47:12.084][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 28 0
+[14:47:12.403][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1524
+[14:47:12.403][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f4 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:12.515][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f4 0 8 53 44 0 2 28 0
+[14:47:12.517][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f4 0 8 53 44 0 2 28 0 0 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:12.722][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   3 e8 0 8 53 54 0 2 8 0
+[14:47:13.046][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   0 12 0 8 0 1 0 3 0 0
+[14:47:13.046][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:860)]  Set Busy Free as receive finish data
+[14:47:13.046][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:862)]  Change state into finish
+[14:47:13.235][DEBUG][galaxis.lee.control.FlashTask.run(FlashTask.java:57)]  Task result is 1
+[14:47:15.404][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1525
+[14:47:15.404][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f5 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:15.451][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f5 0 8 53 44 0 2 4 0
+[14:47:15.452][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f5 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:18.405][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1526
+[14:47:18.405][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f6 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:18.450][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f6 0 8 53 44 0 2 4 0
+[14:47:18.451][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f6 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:21.051][DEBUG][galaxis.lee.util.FileUtil.loadOneConfig(FileUtil.java:265)]  please choose a config
+[14:47:21.051][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:198)]  Config does not exist！
+[14:47:21.406][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1527
+[14:47:21.406][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f7 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:21.464][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f7 0 8 53 44 0 2 4 0
+[14:47:21.465][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f7 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:24.406][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1528
+[14:47:24.406][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f8 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:24.533][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f8 0 8 53 44 0 2 4 0
+[14:47:24.534][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f8 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:27.407][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1529
+[14:47:27.407][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 f9 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:27.460][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 f9 0 8 53 44 0 2 4 0
+[14:47:27.461][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 f9 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:27.777][DEBUG][galaxis.lee.util.FileUtil.showSaveConfigDialog(FileUtil.java:132)]  save config path：E:\ShuttleTool_ch\config.con
+[14:47:27.778][DEBUG][galaxis.lee.util.FileUtil.showSaveConfigDialog(FileUtil.java:136)]  config save success
+[14:47:30.408][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:555)]  ST-----------------------1530
+[14:47:30.408][DEBUG][galaxis.lee.control.V4ShuttleConnector2$STSend.run(V4ShuttleConnector2.java:575)]  STsend  5 fa 0 8 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[14:47:30.475][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:626)]   5 fa 0 8 53 44 0 2 4 0
+[14:47:30.476][DEBUG][galaxis.lee.control.V4ShuttleConnector2$ReceiveThread.run(V4ShuttleConnector2.java:710)]  receive 5 fa 0 8 53 44 0 2 4 0 0 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[15:05:06.881][DEBUG][galaxis.lee.util.FileUtil.loadOneConfig(FileUtil.java:265)]  please choose a config
+[15:05:06.883][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:198)]  Config does not exist！
+[15:20:13.686][DEBUG][galaxis.lee.util.FileUtil.loadOneConfig(FileUtil.java:267)]  load config path：E:\ShuttleTool_ch\config.con
+[15:20:13.696][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis4->> 
+[15:20:13.697][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis3->> 
+[15:20:13.697][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis2->> 
+[15:20:13.697][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis1->> 1230
+[15:20:13.697][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  shuttleType->> V4.5
+[15:20:13.697][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check6->> true
+[15:20:13.697][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check5->> true
+[15:20:13.697][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  ip->> 10.1.4.176
+[15:20:13.698][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check4->> true
+[15:20:13.698][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check3->> true
+[15:20:13.698][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  port->> 2000
+[15:20:13.698][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check2->> true
+[15:20:13.698][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check1->> true
+[15:20:13.698][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  times->> 1
+[15:20:13.699][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir6->> 移动
+[15:20:13.699][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir5->> 放货
+[15:20:13.699][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir4->> 取货
+[15:20:13.699][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  shuttleId->> 8
+[15:20:13.699][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir3->> 放货
+[15:20:13.700][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir2->> 取货
+[15:20:13.700][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir1->> 移动
+[15:20:13.700][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action6->> 向后
+[15:20:13.700][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action5->> 右放
+[15:20:13.700][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action4->> 右取
+[15:20:13.700][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action3->> 左放
+[15:20:13.700][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action2->> 左取
+[15:20:13.700][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action1->> 向前
+[15:20:13.700][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis6->> 1230
+[15:20:13.700][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis5->> 
+[15:20:13.701][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:237)]  Config load success
+[15:22:54.257][DEBUG][galaxis.lee.util.FileUtil.showSaveConfigDialog(FileUtil.java:132)]  save config path：E:\ShuttleTool_ch\config.con
+[15:22:54.258][DEBUG][galaxis.lee.util.FileUtil.showSaveConfigDialog(FileUtil.java:136)]  config save success
+[15:23:07.446][DEBUG][galaxis.lee.util.FileUtil.loadOneConfig(FileUtil.java:267)]  load config path：E:\ShuttleTool_ch\config.con
+[15:23:07.462][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check10->> true
+[15:23:07.462][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir10->> 放货
+[15:23:07.462][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir9->> 放货
+[15:23:07.462][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir8->> 取货
+[15:23:07.462][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir7->> 取货
+[15:23:07.462][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check9->> true
+[15:23:07.462][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir6->> 移动
+[15:23:07.462][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check8->> true
+[15:23:07.463][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir5->> 放货
+[15:23:07.463][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check7->> true
+[15:23:07.463][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir4->> 取货
+[15:23:07.463][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check6->> true
+[15:23:07.463][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir3->> 放货
+[15:23:07.463][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check5->> true
+[15:23:07.463][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir2->> 取货
+[15:23:07.464][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check4->> true
+[15:23:07.464][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir1->> 移动
+[15:23:07.464][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check3->> true
+[15:23:07.464][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check2->> true
+[15:23:07.464][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check1->> true
+[15:23:07.464][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  shuttleId->> 8
+[15:23:07.464][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action10->> 右放2
+[15:23:07.464][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action9->> 左放2
+[15:23:07.464][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action8->> 右取2
+[15:23:07.465][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action7->> 左取2
+[15:23:07.465][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action6->> 向后
+[15:23:07.465][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action5->> 右放
+[15:23:07.465][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action4->> 右取
+[15:23:07.465][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action3->> 左放
+[15:23:07.465][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action2->> 左取
+[15:23:07.465][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action1->> 向前
+[15:23:07.465][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  ip->> 10.1.4.176
+[15:23:07.465][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  times->> 1
+[15:23:07.466][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  port->> 2000
+[15:23:07.466][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis9->> 
+[15:23:07.466][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis8->> 
+[15:23:07.466][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis7->> 
+[15:23:07.466][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis6->> 1230
+[15:23:07.467][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis5->> 
+[15:23:07.467][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis4->> 
+[15:23:07.467][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis3->> 
+[15:23:07.467][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis2->> 
+[15:23:07.467][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis1->> 1230
+[15:23:07.468][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis10->> 
+[15:23:07.468][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  shuttleType->> V4.5
+[15:23:07.468][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:237)]  Config load success

@@ -1,0 +1,7 @@
+[16:35:15.763][DEBUG][galaxis.lee.util.FileUtil.loadOneConfig(FileUtil.java:267)]  load config path：E:\ShuttleTool_ch\circle.con
+[16:35:15.766][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  shuttleId->> 1
+[16:35:15.766][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  port->> 2000
+[16:35:15.766][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  shuttleType->> V4.5
+[16:35:15.766][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  ip->> 127.0.0.1
+[16:35:15.767][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  times->> 1
+[16:35:15.767][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:237)]  Config load success

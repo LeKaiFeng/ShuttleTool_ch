@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="692.0" prefWidth="1152.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="galaxis.lee.senceControl.ShowLogController">
+    <center>
+        <TextArea fx:id="tea" prefHeight="586.0" prefWidth="1070.0" BorderPane.alignment="CENTER" />
+    </center>
+    <bottom>
+        <HBox alignment="CENTER" prefHeight="62.0" prefWidth="600.0" spacing="30.0" BorderPane.alignment="CENTER">
+            <children>
+            <Label text="显示行数" />
+            <TextField fx:id="lineNum" alignment="CENTER" prefHeight="39.0" prefWidth="87.0" text="1000" />
+            <JFXButton fx:id="flush" style="-fx-background-color: Gainsboro;" text="刷新">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></JFXButton>
+                <JFXButton fx:id="clean" style="-fx-background-color: Gainsboro;" text="清除日志">
+                    <HBox.margin>
+                        <Insets left="300.0" />
+                    </HBox.margin>
+                </JFXButton>
+            </children>
+        </HBox>
+    </bottom>
+</BorderPane>

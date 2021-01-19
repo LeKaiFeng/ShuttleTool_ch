@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="rootPane" minHeight="982.0" minWidth="905.0" prefHeight="10000.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="galaxis.lee.senceControl.FXSceneController">
+    <children>
+        <StackPane fx:id="containerPane" prefHeight="10000.0" prefWidth="905.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <GridPane alignment="CENTER" prefHeight="10000.0" prefWidth="1147.0" style="-fx-border-width: 5;">
+                <columnConstraints>
+                    <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="269.0" minWidth="0.0" prefWidth="269.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="508.0" minWidth="10.0" prefWidth="288.0" />
+                    <ColumnConstraints />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="70.0" minHeight="10.0" prefHeight="70.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="159.0" minHeight="10.0" prefHeight="159.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <children>
+                    <HBox fx:id="hbox_top" alignment="CENTER" prefHeight="81.0" prefWidth="905.0" spacing="10.0" style="-fx-border-color: Gainsboro;" GridPane.columnSpan="3" GridPane.rowIndex="1">
+                        <children>
+                            <Label text="type" />
+                            <ChoiceBox fx:id="shuttleType" prefHeight="30.0" prefWidth="77.0" />
+                            <Label text="shuttleId">
+                                <HBox.margin>
+                                    <Insets left="10.0" />
+                                </HBox.margin>
+                            </Label>
+                            <TextField fx:id="shuttleId" alignment="CENTER" prefHeight="30.0" prefWidth="47.0" />
+                            <Label text="IP">
+                                <HBox.margin>
+                                    <Insets left="10.0" />
+                                </HBox.margin>
+                            </Label>
+                            <TextField fx:id="ip" alignment="CENTER" prefHeight="30.0" prefWidth="113.0" />
+                            <Label text="port">
+                                <HBox.margin>
+                                    <Insets left="10.0" />
+                                </HBox.margin>
+                            </Label>
+                            <TextField fx:id="port" alignment="CENTER" prefHeight="30.0" prefWidth="68.0" />
+                            <JFXButton fx:id="btn_connect" contentDisplay="CENTER" onAction="#connect" prefHeight="30.0" prefWidth="88.0" style="-fx-background-color: Gainsboro;" text="connect">
+                                <HBox.margin>
+                                    <Insets left="10.0" />
+                                </HBox.margin>
+                            </JFXButton>
+                        </children>
+                    </HBox>
+                    <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnSpan="3" GridPane.rowIndex="2" GridPane.rowSpan="5">
+                        <children>
+                            <ScrollPane prefHeight="794.0" prefWidth="905.0">
+                                <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="5000.0" prefWidth="885.0">
+                                        <children>
+                                            <StackPane prefHeight="9500.0" prefWidth="885.0" AnchorPane.bottomAnchor="-1262.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <children>
+                                                    <GridPane fx:id="grid" prefHeight="4000.0" prefWidth="885.0">
+                                                        <columnConstraints>
+                                                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="893.0" minWidth="10.0" prefWidth="874.0" />
+                                                        </columnConstraints>
+                                                        <rowConstraints>
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+
+
+                                                        </rowConstraints>
+                                                        <children>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir1" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action1" prefWidth="155.0" />
+                                                                    <Label fx:id="label1" text="distance(mm)" />
+                                                                    <TextField fx:id="dis1" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check1" text="Check effective  1" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="1">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir2" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action2" prefWidth="155.0" />
+                                                                    <Label fx:id="label2" text="distance(mm)" />
+                                                                    <TextField fx:id="dis2" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check2" text="Check effective  2" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="2">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir3" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action3" prefWidth="155.0" />
+                                                                    <Label fx:id="label3" text="distance(mm)" />
+                                                                    <TextField fx:id="dis3" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check3" text="Check effective  3" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="3">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4" prefWidth="155.0" />
+                                                                    <Label fx:id="label4" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4" text="Check effective  4" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="4">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir5" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action5" prefWidth="155.0" />
+                                                                    <Label fx:id="label5" text="distance(mm)" />
+                                                                    <TextField fx:id="dis5" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check5" text="Check effective  5" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="5">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir6" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action6" prefWidth="155.0" />
+                                                                    <Label fx:id="label6" text="distance(mm)" />
+                                                                    <TextField fx:id="dis6" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check6" text="Check effective  6" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="6">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir7" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action7" prefWidth="155.0" />
+                                                                    <Label fx:id="label7" text="distance(mm)" />
+                                                                    <TextField fx:id="dis7" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check7" text="Check effective  7" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="7">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir8" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action8" prefWidth="155.0" />
+                                                                    <Label fx:id="label8" text="distance(mm)" />
+                                                                    <TextField fx:id="dis8" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check8" text="Check effective  8" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="8">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir9" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action9" prefWidth="155.0" />
+                                                                    <Label fx:id="label9" text="distance(mm)" />
+                                                                    <TextField fx:id="dis9" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check9" text="Check effective  9" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="9">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir10" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action10" prefWidth="155.0" />
+                                                                    <Label fx:id="label10" text="distance(mm)" />
+                                                                    <TextField fx:id="dis10" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check10" text="Check effective 10" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="10">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir11" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action11" prefWidth="155.0" />
+                                                                    <Label fx:id="label11" text="distance(mm)" />
+                                                                    <TextField fx:id="dis11" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check11" text="Check effective 11" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="11">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir12" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action12" prefWidth="155.0" />
+                                                                    <Label fx:id="label12" text="distance(mm)" />
+                                                                    <TextField fx:id="dis12" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check12" text="Check effective 12" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="12">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir13" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action13" prefWidth="155.0" />
+                                                                    <Label fx:id="label13" text="distance(mm)" />
+                                                                    <TextField fx:id="dis13" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check13" text="Check effective 13" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="13">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir14" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action14" prefWidth="155.0" />
+                                                                    <Label fx:id="label14" text="distance(mm)" />
+                                                                    <TextField fx:id="dis14" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check14" text="Check effective 14" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="14">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir15" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action15" prefWidth="155.0" />
+                                                                    <Label fx:id="label15" text="distance(mm)" />
+                                                                    <TextField fx:id="dis15" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check15" text="Check effective 15" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="15">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir16" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action16" prefWidth="155.0" />
+                                                                    <Label fx:id="label16" text="distance(mm)" />
+                                                                    <TextField fx:id="dis16" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check16" text="Check effective 16" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="16">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir17" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action17" prefWidth="155.0" />
+                                                                    <Label fx:id="label17" text="distance(mm)" />
+                                                                    <TextField fx:id="dis17" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check17" text="Check effective 17" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="17">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir18" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action18" prefWidth="155.0" />
+                                                                    <Label fx:id="label18" text="distance(mm)" />
+                                                                    <TextField fx:id="dis18" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check18" text="Check effective 18" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="18">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir19" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action19" prefWidth="155.0" />
+                                                                    <Label fx:id="label19" text="distance(mm)" />
+                                                                    <TextField fx:id="dis19" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check19" text="Check effective 19" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="19">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir20" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action20" prefWidth="155.0" />
+                                                                    <Label fx:id="label20" text="distance(mm)" />
+                                                                    <TextField fx:id="dis20" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check20" text="Check effective 20" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="20">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir21" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action21" prefWidth="155.0" />
+                                                                    <Label fx:id="label21" text="distance(mm)" />
+                                                                    <TextField fx:id="dis21" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check21" text="Check effective 21" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="21">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir22" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action22" prefWidth="155.0" />
+                                                                    <Label fx:id="label22" text="distance(mm)" />
+                                                                    <TextField fx:id="dis22" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check22" text="Check effective 22" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="22">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir23" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action23" prefWidth="155.0" />
+                                                                    <Label fx:id="label23" text="distance(mm)" />
+                                                                    <TextField fx:id="dis23" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check23" text="Check effective 23" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="23">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir24" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action24" prefWidth="155.0" />
+                                                                    <Label fx:id="label24" text="distance(mm)" />
+                                                                    <TextField fx:id="dis24" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check24" text="Check effective 24" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="24">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir25" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action25" prefWidth="155.0" />
+                                                                    <Label fx:id="label25" text="distance(mm)" />
+                                                                    <TextField fx:id="dis25" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check25" text="Check effective 25" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="25">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir26" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action26" prefWidth="155.0" />
+                                                                    <Label fx:id="label26" text="distance(mm)" />
+                                                                    <TextField fx:id="dis26" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check26" text="Check effective 26" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="26">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir27" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action27" prefWidth="155.0" />
+                                                                    <Label fx:id="label27" text="distance(mm)" />
+                                                                    <TextField fx:id="dis27" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check27" text="Check effective 27" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="27">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir28" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action28" prefWidth="155.0" />
+                                                                    <Label fx:id="label28" text="distance(mm)" />
+                                                                    <TextField fx:id="dis28" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check28" text="Check effective 28" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="28">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir29" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action29" prefWidth="155.0" />
+                                                                    <Label fx:id="label29" text="distance(mm)" />
+                                                                    <TextField fx:id="dis29" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check29" text="Check effective 29" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="29">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir30" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action30" prefWidth="155.0" />
+                                                                    <Label fx:id="label30" text="distance(mm)" />
+                                                                    <TextField fx:id="dis30" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check30" text="Check effective 30" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="30">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir31" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action31" prefWidth="155.0" />
+                                                                    <Label fx:id="label31" text="distance(mm)" />
+                                                                    <TextField fx:id="dis31" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check31" text="Check effective 31" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="31">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir32" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action32" prefWidth="155.0" />
+                                                                    <Label fx:id="label32" text="distance(mm)" />
+                                                                    <TextField fx:id="dis32" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check32" text="Check effective 32" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="32">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir33" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action33" prefWidth="155.0" />
+                                                                    <Label fx:id="label33" text="distance(mm)" />
+                                                                    <TextField fx:id="dis33" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check33" text="Check effective 33" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="33">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir34" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action34" prefWidth="155.0" />
+                                                                    <Label fx:id="label34" text="distance(mm)" />
+                                                                    <TextField fx:id="dis34" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check34" text="Check effective 34" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="34">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir35" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action35" prefWidth="155.0" />
+                                                                    <Label fx:id="label35" text="distance(mm)" />
+                                                                    <TextField fx:id="dis35" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check35" text="Check effective 35" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="35">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir36" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action36" prefWidth="155.0" />
+                                                                    <Label fx:id="label36" text="distance(mm)" />
+                                                                    <TextField fx:id="dis36" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check36" text="Check effective 36" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="36">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir37" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action37" prefWidth="155.0" />
+                                                                    <Label fx:id="label37" text="distance(mm)" />
+                                                                    <TextField fx:id="dis37" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check37" text="Check effective 37" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="37">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir38" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action38" prefWidth="155.0" />
+                                                                    <Label fx:id="label38" text="distance(mm)" />
+                                                                    <TextField fx:id="dis38" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check38" text="Check effective 38" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="38">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir39" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action39" prefWidth="155.0" />
+                                                                    <Label fx:id="label39" text="distance(mm)" />
+                                                                    <TextField fx:id="dis39" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check39" text="Check effective 39" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="39">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40" prefWidth="155.0" />
+                                                                    <Label fx:id="label40" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40" text="Check effective 40" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="40">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir401" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action401" prefWidth="155.0" />
+                                                                    <Label fx:id="label401" text="distance(mm)" />
+                                                                    <TextField fx:id="dis401" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check401" text="Check effective 41" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="41">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402" prefWidth="155.0" />
+                                                                    <Label fx:id="label402" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402" text="Check effective 42" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="42">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir403" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action403" prefWidth="155.0" />
+                                                                    <Label fx:id="label403" text="distance(mm)" />
+                                                                    <TextField fx:id="dis403" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check403" text="Check effective 43" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="43">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir404" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action404" prefWidth="155.0" />
+                                                                    <Label fx:id="label404" text="distance(mm)" />
+                                                                    <TextField fx:id="dis404" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check404" text="Check effective 44" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="44">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir405" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action405" prefWidth="155.0" />
+                                                                    <Label fx:id="label405" text="distance(mm)" />
+                                                                    <TextField fx:id="dis405" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check405" text="Check effective 45" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="45">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir406" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action406" prefWidth="155.0" />
+                                                                    <Label fx:id="label406" text="distance(mm)" />
+                                                                    <TextField fx:id="dis406" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check406" text="Check effective 46" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="46">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir407" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action407" prefWidth="155.0" />
+                                                                    <Label fx:id="label407" text="distance(mm)" />
+                                                                    <TextField fx:id="dis407" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check407" text="Check effective 47" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="47">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir408" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action408" prefWidth="155.0" />
+                                                                    <Label fx:id="label408" text="distance(mm)" />
+                                                                    <TextField fx:id="dis408" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check408" text="Check effective 48" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="48">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir409" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action409" prefWidth="155.0" />
+                                                                    <Label fx:id="label409" text="distance(mm)" />
+                                                                    <TextField fx:id="dis409" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check409" text="Check effective 49" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="49">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4010" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4010" prefWidth="155.0" />
+                                                                    <Label fx:id="label4010" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4010" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4010" text="Check effective 40" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="50">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4011" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4011" prefWidth="155.0" />
+                                                                    <Label fx:id="label4011" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4011" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4011" text="Check effective 40" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="51">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4012" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4012" prefWidth="155.0" />
+                                                                    <Label fx:id="label4012" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4012" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4012" text="Check effective 40" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="52">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4013" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4013" prefWidth="155.0" />
+                                                                    <Label fx:id="label4013" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4013" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4013" text="Check effective 40" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="53">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4014" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4014" prefWidth="155.0" />
+                                                                    <Label fx:id="label4014" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4014" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4014" text="Check effective 40" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="54">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4015" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4015" prefWidth="155.0" />
+                                                                    <Label fx:id="label4015" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4015" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4015" text="Check effective 56" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="55">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4016" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4016" prefWidth="155.0" />
+                                                                    <Label fx:id="label4016" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4016" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4016" text="Check effective 57" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="56">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4017" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4017" prefWidth="155.0" />
+                                                                    <Label fx:id="label4017" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4017" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4017" text="Check effective 58" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="57">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4018" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4018" prefWidth="155.0" />
+                                                                    <Label fx:id="label4018" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4018" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4018" text="Check effective 59" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="58">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4019" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4019" prefWidth="155.0" />
+                                                                    <Label fx:id="label4019" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4019" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4019" text="Check effective 40" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="59">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4020" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4020" prefWidth="155.0" />
+                                                                    <Label fx:id="label4020" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4020" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4020" text="Check effective 60" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="60">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4021" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4021" prefWidth="155.0" />
+                                                                    <Label fx:id="label4021" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4021" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4021" text="Check effective 61" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="61">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40211" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40211" prefWidth="155.0" />
+                                                                    <Label fx:id="label40211" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40211" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40211" text="Check effective 62" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="62">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40212" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40212" prefWidth="155.0" />
+                                                                    <Label fx:id="label40212" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40212" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40212" text="Check effective 63" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="63">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40213" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40213" prefWidth="155.0" />
+                                                                    <Label fx:id="label40213" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40213" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40213" text="Check effective 64" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="64">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40214" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40214" prefWidth="155.0" />
+                                                                    <Label fx:id="label40214" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40214" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40214" text="Check effective 65" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="65">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40215" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40215" prefWidth="155.0" />
+                                                                    <Label fx:id="label40215" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40215" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40215" text="Check effective 66" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="66">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40216" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40216" prefWidth="155.0" />
+                                                                    <Label fx:id="label40216" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40216" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40216" text="Check effective 67" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="67">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40217" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40217" prefWidth="155.0" />
+                                                                    <Label fx:id="label40217" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40217" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40217" text="Check effective 68" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="68">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40218" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40218" prefWidth="155.0" />
+                                                                    <Label fx:id="label40218" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40218" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40218" text="Check effective 69" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="69">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40219" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40219" prefWidth="155.0" />
+                                                                    <Label fx:id="label40219" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40219" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40219" text="Check effective 70" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="70">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402110" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402110" prefWidth="155.0" />
+                                                                    <Label fx:id="label402110" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402110" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402110" text="Check effective 71" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="71">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402111" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402111" prefWidth="155.0" />
+                                                                    <Label fx:id="label402111" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402111" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402111" text="Check effective 72" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="72">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402112" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402112" prefWidth="155.0" />
+                                                                    <Label fx:id="label402112" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402112" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402112" text="Check effective 73" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="73">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402113" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402113" prefWidth="155.0" />
+                                                                    <Label fx:id="label402113" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402113" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402113" text="Check effective 74" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="74">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402114" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402114" prefWidth="155.0" />
+                                                                    <Label fx:id="label402114" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402114" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402114" text="Check effective 75" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="75">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402115" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402115" prefWidth="155.0" />
+                                                                    <Label fx:id="label402115" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402115" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402115" text="Check effective 76" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="76">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402116" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402116" prefWidth="155.0" />
+                                                                    <Label fx:id="label402116" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402116" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402116" text="Check effective 77" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="77">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4021161" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4021161" prefWidth="155.0" />
+                                                                    <Label fx:id="label4021161" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4021161" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4021161" text="Check effective 78" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="78">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4021162" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4021162" prefWidth="155.0" />
+                                                                    <Label fx:id="label4021162" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4021162" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4021162" text="Check effective 79" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="79">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4021163" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4021163" prefWidth="155.0" />
+                                                                    <Label fx:id="label4021163" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4021163" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4021163" text="Check effective 80" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="80">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4021164" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4021164" prefWidth="155.0" />
+                                                                    <Label fx:id="label4021164" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4021164" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4021164" text="Check effective 81" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="81">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4021165" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4021165" prefWidth="155.0" />
+                                                                    <Label fx:id="label4021165" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4021165" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4021165" text="Check effective 82" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="82">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4021166" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4021166" prefWidth="155.0" />
+                                                                    <Label fx:id="label4021166" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4021166" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4021166" text="Check effective 83" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="83">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4021167" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4021167" prefWidth="155.0" />
+                                                                    <Label fx:id="label4021167" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4021167" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4021167" text="Check effective 84" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="84">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4021168" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4021168" prefWidth="155.0" />
+                                                                    <Label fx:id="label4021168" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4021168" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4021168" text="Check effective 85" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="85">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4021169" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4021169" prefWidth="155.0" />
+                                                                    <Label fx:id="label4021169" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4021169" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4021169" text="Check effective 86" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="86">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40211610" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40211610" prefWidth="155.0" />
+                                                                    <Label fx:id="label40211610" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40211610" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40211610" text="Check effective 87" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="87">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40211611" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40211611" prefWidth="155.0" />
+                                                                    <Label fx:id="label40211611" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40211611" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40211611" text="Check effective 88" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="88">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir40211612" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action40211612" prefWidth="155.0" />
+                                                                    <Label fx:id="label40211612" text="distance(mm)" />
+                                                                    <TextField fx:id="dis40211612" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check40211612" text="Check effective 89" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="89">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402116121" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402116121" prefWidth="155.0" />
+                                                                    <Label fx:id="label402116121" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402116121" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402116121" text="Check effective 90" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="90">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402116122" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402116122" prefWidth="155.0" />
+                                                                    <Label fx:id="label402116122" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402116122" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402116122" text="Check effective 91" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="91">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402116123" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402116123" prefWidth="155.0" />
+                                                                    <Label fx:id="label402116123" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402116123" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402116123" text="Check effective 92" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="92">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402116124" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402116124" prefWidth="155.0" />
+                                                                    <Label fx:id="label402116124" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402116124" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402116124" text="Check effective 93" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="93">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402116125" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402116125" prefWidth="155.0" />
+                                                                    <Label fx:id="label402116125" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402116125" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402116125" text="Check effective 94" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="94">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402116126" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402116126" prefWidth="155.0" />
+                                                                    <Label fx:id="label402116126" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402116126" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402116126" text="Check effective 95" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="95">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402116127" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402116127" prefWidth="155.0" />
+                                                                    <Label fx:id="label402116127" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402116127" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402116127" text="Check effective 96" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="96">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402116128" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402116128" prefWidth="155.0" />
+                                                                    <Label fx:id="label402116128" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402116128" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402116128" text="Check effective 97" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="97">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir402116129" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action402116129" prefWidth="155.0" />
+                                                                    <Label fx:id="label402116129" text="distance(mm)" />
+                                                                    <TextField fx:id="dis402116129" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check402116129" text="Check effective 98" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="98">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4021161210" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4021161210" prefWidth="155.0" />
+                                                                    <Label fx:id="label4021161210" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4021161210" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4021161210" text="Check effective 99" />
+                                                                </children>
+                                                            </HBox>
+                                                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="99">
+                                                                <children>
+                                                                    <ChoiceBox fx:id="dir4021161211" prefWidth="120.0" />
+                                                                    <ChoiceBox fx:id="action4021161211" prefWidth="155.0" />
+                                                                    <Label fx:id="label4021161211" text="distance(mm)" />
+                                                                    <TextField fx:id="dis4021161211" prefHeight="30.0" prefWidth="70.0" />
+                                                                    <JFXCheckBox fx:id="check4021161211" text="Check effective 100" />
+                                                                </children>
+                                                            </HBox>
+                                                        </children>
+                                                    </GridPane>
+                                                </children>
+                                            </StackPane>
+                                        </children>
+                                    </AnchorPane>
+                                </content>
+                            </ScrollPane>
+                        </children>
+                    </VBox>
+                    <VBox alignment="CENTER" prefHeight="115.0" prefWidth="905.0" GridPane.columnSpan="3" GridPane.rowIndex="7">
+                        <children>
+                            <HBox fx:id="hbox_end" alignment="CENTER" prefHeight="100.0" prefWidth="903.0" spacing="10.0" style="-fx-border-color: Gainsboro;">
+                                <children>
+                                    <Label text="Cycles" />
+                                    <TextField fx:id="times" alignment="CENTER" prefHeight="30.0" prefWidth="46.0" text="1" />
+                                    <JFXButton fx:id="start" onAction="#flashAction" style="-fx-background-color: Gainsboro;" text="RUN">
+                                        <HBox.margin>
+                                            <Insets left="30.0" />
+                                        </HBox.margin>
+                                    </JFXButton>
+                                </children>
+                            </HBox>
+                        </children>
+                    </VBox>
+                    <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnSpan="3">
+                        <children>
+                            <MenuBar fx:id="mb" prefHeight="32.0" prefWidth="905.0">
+                                <menus>
+                                    <Menu mnemonicParsing="false" text="log">
+                                        <items>
+                                            <MenuItem mnemonicParsing="false" text="show log" />
+                                        </items>
+                                    </Menu>
+
+                                    <Menu mnemonicParsing="false" text="config">
+                                        <items>
+                                            <MenuItem mnemonicParsing="false" text="save config" />
+                                        </items>
+                                        <items>
+                                            <MenuItem mnemonicParsing="false" text="load config" />
+                                        </items>
+                                    </Menu>
+
+                                    <Menu mnemonicParsing="false" text="version">
+                                        <items>
+                                            <MenuItem mnemonicParsing="false" text="current version" />
+                                        </items>
+                                        <items>
+                                            <MenuItem mnemonicParsing="false" text="historic version" />
+                                        </items>
+                                    </Menu>
+
+                                </menus>
+                            </MenuBar>
+                        </children>
+                    </HBox>
+                </children>
+            </GridPane>
+
+        </StackPane>
+
+
+    </children>
+
+</AnchorPane>

@@ -1,0 +1,21 @@
+[14:43:05.438][DEBUG][galaxis.lee.util.FileUtil.loadOneConfig(FileUtil.java:265)]  please choose a config
+[14:43:05.439][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:198)]  Config does not exist！
+[14:43:20.446][DEBUG][galaxis.lee.util.FileUtil.showSaveConfigDialog(FileUtil.java:132)]  save config path：E:\ShuttleTool_ch\config.con
+[14:43:20.447][DEBUG][galaxis.lee.util.FileUtil.showSaveConfigDialog(FileUtil.java:136)]  config save success
+[15:21:58.853][DEBUG][galaxis.lee.util.CheckValidTool.isValidField(CheckValidTool.java:41)]  非法 textField ：
+[14:19:24.810][DEBUG][galaxis.lee.util.CheckValidTool.isValidField(CheckValidTool.java:41)]  非法 textField ：
+[16:14:22.366][DEBUG][galaxis.lee.util.FileUtil.loadOneConfig(FileUtil.java:267)]  load config path：E:\ShuttleTool_ch\config.con
+[16:14:22.369][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  times->> 1
+[16:14:22.370][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  shuttleId->> 
+[16:14:22.370][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check2->> true
+[16:14:22.370][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  check1->> true
+[16:14:22.370][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action2->> pick up right 2
+[16:14:22.370][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  port->> 
+[16:14:22.370][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  action1->> put down right 2
+[16:14:22.371][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis2->> 
+[16:14:22.371][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  ip->> 
+[16:14:22.371][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dis1->> 
+[16:14:22.371][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  shuttleType->> V4.5
+[16:14:22.371][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir2->> load
+[16:14:22.371][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:217)]  dir1->> unload
+[16:14:22.371][DEBUG][galaxis.lee.util.FileUtil.fillSceneNode(FileUtil.java:237)]  Config load success
